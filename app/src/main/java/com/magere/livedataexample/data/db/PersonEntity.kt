@@ -8,6 +8,4 @@ data class PersonEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Long?,
     val name: String
-) {
-    constructor(): this(null, "")
-}
+)
